@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Impulso Fit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="login-box">
+    <h2>Bem-Vindo ao Impulso Fit</h2>
+    <input type="text" id="cpf" placeholder="Digite seu CPF" maxlength="14" inputmode="numeric" pattern="[0-9]*">
+    
+    <div class="keypad">
+      <!-- Números de 1 a 9 -->
+      <button onclick="addDigit('1')">1</button>
+      <button onclick="addDigit('2')">2</button>
+      <button onclick="addDigit('3')">3</button>
+      <button onclick="addDigit('4')">4</button>
+      <button onclick="addDigit('5')">5</button>
+      <button onclick="addDigit('6')">6</button>
+      <button onclick="addDigit('7')">7</button>
+      <button onclick="addDigit('8')">8</button>
+      <button onclick="addDigit('9')">9</button>
+      
+      <!-- Botões especiais -->
+      <button onclick="clearCPF()">←</button>
+      <button onclick="addDigit('0')">0</button>
+      <button onclick="validarCPF()">OK</button>
+    </div>
+
+    <p id="mensagem"></p>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
