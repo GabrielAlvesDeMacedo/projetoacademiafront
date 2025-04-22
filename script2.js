@@ -1,9 +1,9 @@
 // Configuração inicial e constantes globais
 
 // URL's da nossa API (Backend)
-const ENDPOINT_CADASTRO = 'http://127.0.0.1:5000/admin'; // POST para cadastrar e PUT para atualizar
-const ENDPOINT_LISTA_TODOS = "http://127.0.0.1:5000/admin"; // GET para listar todos
-const ENDPOINT_EXCLUIR = "http://127.0.0.1:5000/admin/"; // DELETE para excluir (o ID será adicionado)
+const ENDPOINT_CADASTRO = 'projetoacademiabackend.vercel.app/admin'; // POST para cadastrar e PUT para atualizar
+const ENDPOINT_LISTA_TODOS = "projetoacademiabackend.vercel.app/admin"; // GET para listar todos
+const ENDPOINT_EXCLUIR = "projetoacademiabackend.vercel.app/admin/"; // DELETE para excluir (o ID será adicionado)
 
 // Ligando com os elementos HTML
 

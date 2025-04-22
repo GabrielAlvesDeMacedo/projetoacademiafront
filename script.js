@@ -9,7 +9,7 @@ async function validarCPF() {
   }
 
   try {
-      const response = await fetch(`http://127.0.0.1:5000/admin/consultar_cpf?cpf=${cpf}`, {
+      const response = await fetch(`projetoacademiabackend.vercel.app/admin/consultar_cpf?cpf=${cpf}`, {
           method: 'GET',
           headers: {
               'Content-Type': 'application/json',
